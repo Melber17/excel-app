@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+node_modules
+dist
+=======
+dist
+node_modules
+>>>>>>> 458c18c... finished webpack
