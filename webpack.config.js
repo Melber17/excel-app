@@ -14,13 +14,17 @@ const jsLoaders = () => {
     {
       loader: 'babel-loader',
       options: {
-        presets: ['@babel/preset-env']
+        presets: ['@babel/preset-env'],
+        plugins: ['@babel/plugin-proposal-class-properties']
       }
     }
   ]
+
   if (isDev) {
     loaders.push('eslint-loader')
   }
+
+  return loaders
 }
 
 module.exports = {
@@ -67,13 +71,13 @@ module.exports = {
       {
         test: /\.s[ac]ss$/i,
         use: [
-        {
-          loader: MiniCssExtractPlugin.loader,
-          options: {
-            hmr: isDev,
-            reloadAll: true
-          }
-        },
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: isDev,
+              reloadAll: true
+            }
+          },
           'css-loader',
           'sass-loader'
         ],
@@ -81,7 +85,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: jsLoaders(),
+        use: jsLoaders()
       }
     ]
   }
