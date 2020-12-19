@@ -6,10 +6,10 @@ Project collected with webpack.
 
 To install the project, please, download it or clone, and then use
 ```sh
-npm i
+$ npm i
 ```
 ```sh
-npm install webpack -g
+$ npm install webpack -g
 ```
 
 ## Available Scripts
@@ -17,7 +17,7 @@ npm install webpack -g
 For start the project, you should write
 
 ```sh
- npm run start
+$ npm run start
 ```
 It's a developer mode.
 If you wanna run project in production mode, use:
@@ -29,13 +29,13 @@ The build is minified and the filenames include the hashes. <br />
 And app is ready to be deployed:
 
 ```sh
-npm run build
+$ npm run build
 ```
 
 For test this project, you can write: 
 
 ```sh
-npm test
+$ npm test
 ```
 
 ## Content
