@@ -14,10 +14,11 @@ npm install webpack -g
 
 ## Available Scripts
 
-For start the project, you should write:
+For start the project, you should write
 
-### `npm run start`
-
+```sh
+ npm run start
+```
 It's a developer mode.
 If you wanna run project in production mode, use:
 
@@ -28,7 +29,7 @@ The build is minified and the filenames include the hashes. <br />
 And app is ready to be deployed:
 
 ```sh
-npm run build`
+npm run build
 ```
 
 For test this project, you can write: 
