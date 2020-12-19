@@ -15,5 +15,6 @@
         "quotes":"off",
         "operator-linebreak":"off"
     },
+    "plugins": ["jest"],
     "extends": ["eslint:recommended", "google"]
 }
