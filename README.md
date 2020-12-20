@@ -1,5 +1,5 @@
 # Excel application
-Its a excel application. Made with vanila javascript.
+Its a prototype google excel application. Made with vanila javascript.
 Project collected with webpack.
 
 ## Getting Start
